@@ -1,5 +1,7 @@
 module github.com/semyon-dev/cmux
 
-go 1.11
+go 1.24.0
 
-require golang.org/x/net v0.0.0-20201202161906-c7110b5ffcbb
+require golang.org/x/net v0.46.0
+
+require golang.org/x/text v0.30.0 // indirect
